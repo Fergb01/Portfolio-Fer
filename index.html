@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Fer Garduño — Frontend Developer & UX/UI Enthusiast based in Mexico City. Building thoughtful, beautiful interfaces with React, JavaScript, and Figma." />
+  <meta name="author" content="Fernanda Garduño" />
+  <meta property="og:title" content="Fer Garduño — Frontend Developer" />
+  <meta property="og:description" content="Building beautiful, thoughtful interfaces with React, GraphQL, and Figma." />
+  <meta property="og:type" content="website" />
+  <title>Fer Garduño — Frontend Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <header role="banner">
+    <nav class="nav" id="nav" aria-label="Main navigation">
+      <a href="#home" class="nav__logo" aria-label="Fer Garduño — home">Fer Garduño</a>
+      <ul class="nav__links" role="list">
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Work</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__actions">
+        <!-- Dark mode -->
+        <button
+          class="theme-toggle"
+          id="theme-toggle"
+          aria-label="Switch to dark mode"
+          aria-pressed="false"
+          type="button"
+        >
+          <!-- Sun icon -->
+          <svg class="theme-toggle__icon theme-toggle__icon--sun" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="5"/>
+            <line x1="12" y1="1" x2="12" y2="3"/>
+            <line x1="12" y1="21" x2="12" y2="23"/>
+            <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/>
+            <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/>
+            <line x1="1" y1="12" x2="3" y2="12"/>
+            <line x1="21" y1="12" x2="23" y2="12"/>
+            <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/>
+            <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+          </svg>
+          <!-- Moon icon -->
+          <svg class="theme-toggle__icon theme-toggle__icon--moon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+          </svg>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="hero" id="home" aria-labelledby="hero-heading">
+
+      <div class="hero__content">
+        <p class="eyebrow">
+          <span aria-hidden="true" class="eyebrow__dot"></span>
+          Frontend Developer · Mexico City
+        </p>
+        <h1 class="hero__name" id="hero-heading">
+          Hi, I'm<br /><em>Fer.</em>
+        </h1>
+        <p class="hero__sub">
+          Frontend Developer with a Computer Science background and a passion for crafting clean, functional interfaces. <b></b>
+          I’m currently diving deep into the world of <strong> UX/UI </strong> to make sure my code feels as good as it looks—always driven by curiosity, a desire to learn, and a really good playlist.
+        </p>
+        <div class="hero__cta">
+          <a href="#projects" class="btn btn--dark">See my work →</a>
+          <a href="https://github.com/Fergb01" target="_blank" rel="noopener noreferrer" class="btn btn--ghost">GitHub ↗</a>
+        </div>
+        <ul class="chip-list" role="list" aria-label="Current interests">
+          <li class="chip">🎵 Music</li>
+          <li class="chip">⚛️ React</li>
+          <li class="chip">🎨 Figma</li>
+          <li class="chip">🌸 Procreate</li>
+        </ul>
+      </div>
+
+      <div class="hero__illustration" aria-hidden="true">
+        <div class="hero__illustration-frame">
+          <img
+            src="assets/images/Ilustration.PNG"
+            alt=""
+            class="hero__illustration-img"
+          />
+        </div>
+      </div>
+
+    </section>
+
+    <!--Skills marquee -->
+    <div class="marquee" aria-hidden="true" role="presentation">
+      <div class="marquee__track">
+        <span class="marquee__item marquee__item--accent">React</span><span>·</span>
+        <span class="marquee__item">Figma</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">GraphQL</span><span>·</span>
+        <span class="marquee__item">UX Design</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Next.js</span><span>·</span>
+        <span class="marquee__item">JavaScript</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">CSS</span><span>·</span>
+        <span class="marquee__item">Python</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Material UI</span><span>·</span>
+        <span class="marquee__item">Blender</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Laravel</span><span>·</span>
+        <span class="marquee__item">PostgreSQL</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">React</span><span>·</span>
+        <span class="marquee__item">Figma</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">GraphQL</span><span>·</span>
+        <span class="marquee__item">UX Design</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Next.js</span><span>·</span>
+        <span class="marquee__item">JavaScript</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">CSS</span><span>·</span>
+        <span class="marquee__item">Python</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Material UI</span><span>·</span>
+        <span class="marquee__item">Blender</span><span>·</span>
+        <span class="marquee__item marquee__item--accent">Laravel</span><span>·</span>
+        <span class="marquee__item">PostgreSQL</span><span>·</span>
+      </div>
+    </div>
+
+    <!-- About me -->
+    <section class="section" id="about" aria-labelledby="about-heading">
+      <div class="section__inner">
+        <p class="eyebrow">About me</p>
+        <h2 class="section__title" id="about-heading">
+          Coding with a <br /><em> Designer's Heart</em>
+        </h2>
+        <div class="about__grid">
+          <div class="about__text reveal">
+            <p>
+              I’m a <strong>frontend developer</strong> with a BS in Computer Science from <strong>UNAM</strong> who believes that great software lives at the intersection of logic and human emotion. I don't just write code; I want to build digital experiences that are both <em>functional and beautiful</em>
+            </p>
+            <p>
+              Currently, I’m at <strong>Stadibox</strong> developing modular systems with <strong>React and GraphQL</strong> , while simultaneously specializing in <strong>UX/UI Design at EBAC</strong>. I’m on a mission to bridge the gap between engineering and design—because I believe the best developers are those who truly understand the user.
+            </p>
+          </div>
+          <div class="about__sidebar reveal" style="--reveal-delay: 0.15s">
+            <div class="skills">
+              <div class="skills__group">
+                <h3 class="skills__label">Frontend &amp; Design</h3>
+                <ul class="skill-pills" role="list">
+                  <li class="skill-pill">React</li><li class="skill-pill">Next.js</li><li class="skill-pill">JavaScript</li><li class="skill-pill">HTML</li><li class="skill-pill">CSS</li><li class="skill-pill">GraphQL</li><li class="skill-pill">Figma</li><li class="skill-pill">Material UI</li><li class="skill-pill">Bootstrap</li><li class="skill-pill">Blender</li>
+                </ul>
+              </div>
+              <div class="skills__group">
+                <h3 class="skills__label">Backend &amp; Tools</h3>
+                <ul class="skill-pills" role="list">
+                  <li class="skill-pill">Python</li><li class="skill-pill">PHP</li><li class="skill-pill">Laravel</li><li class="skill-pill">MySQL</li><li class="skill-pill">PostgreSQL</li><li class="skill-pill">Java</li><li class="skill-pill">Git</li><li class="skill-pill">SCRUM</li>
+                </ul>
+              </div>
+              <div class="skills__group">
+                <h3 class="skills__label">Analytics &amp; Product</h3>
+                <ul class="skill-pills" role="list">
+                  <li class="skill-pill">GA4</li>
+                  <li class="skill-pill">Google Tag Manager</li>
+                  <li class="skill-pill">Product Owner</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section section--alt" id="projects" aria-labelledby="projects-heading">
+      <div class="section__inner">
+        <p class="eyebrow">Selected work</p>
+        <h2 class="section__title" id="projects-heading">Things I've <em>built</em></h2>
+
+        <ul class="projects-grid" role="list">
+          <li class="project-card project-card--featured reveal" data-accent="rose">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__num">01 — Featured</span>
+              <h3 class="project-card__title">50Friends</h3>
+              <p class="project-card__desc">Full UX/UI design project in Figma — user personas, flow mapping, high-fidelity mockups, interactive prototype, and microinteraction animations. </p>
+              <ul class="project-card__tags" role="list" aria-label="Technologies used">
+                <li>Figma</li><li>UX Research</li><li>Prototyping</li><li>UI Design</li><li>Motion</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://www.figma.com/proto/HpxTvQ9oxqZyoliecEp7GR/Aplicaci%C3%B3n?node-id=1-7&starting-point-node-id=103%3A28&t=UcMXXze2PwOktVJZ-1" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="View 50Friends prototype in Figma">View Prototype →</a>
+              </div>
+            </div>
+            <div class="project-card__mockup" aria-hidden="true">
+              <img src="assets/mockups/50Friends.png" alt="50 Friends screenshot" />
+            </div>
+          </li>
+         <li class="project-card reveal" data-accent="sage" style="--reveal-delay: 0.4s">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__mockup project-card__mockup--top" aria-hidden="true">
+              <img src="assets/mockups/designSystem.png" alt="DesignSystem screenshot" />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__num">02</span>
+              <h3 class="project-card__title">🎨 Design System</h3>
+              <p class="project-card__desc">
+                Reusable React component library with design tokens, CSS Modules,
+                and light/dark mode. Includes Button, Badge, Input, and Card
+                components with an interactive showcase.
+              </p>
+              <ul class="project-card__tags" role="list" aria-label="Technologies used">
+                <li>React</li>
+                <li>CSS Modules</li>
+                <li>Design Tokens</li>
+              </ul>
+              <div class="project-card__links">
+                
+                <a href="https://fergb01.github.io/design-system/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-card__link"
+                  aria-label="View Design System demo"
+                >Live Demo →</a>
+                
+                <a href="https://github.com/Fergb01/design-system"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-card__link"
+                  aria-label="View github"
+                >GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card reveal" data-accent="sage" style="--reveal-delay: 0.2s">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__mockup project-card__mockup--top" aria-hidden="true">
+              <img src="assets/mockups/animation.png" alt="Animation screenshot" />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__num">03</span>
+              <h3 class="project-card__title">3D Animation</h3>
+              <p class="project-card__desc">
+                 A <strong>3D animation</strong> created in <strong>Blender</strong> that goes beyond the browser to explore spatial thinking and motion design. 
+                  I headed the entire creative process, from <em>storytelling and scriptwriting</em> to storyboarding and final execution. This project allowed me to merge <strong>visual narrative</strong> with technical precision, demonstrating how movement and composition can tell a powerful story.
+                </p>
+              <ul class="project-card__tags" role="list" aria-label="Technologies used">
+                <li>Blender</li><li>3D</li><li>Motion Design</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://drive.google.com/file/d/1r3FrlCq2EaIMv-TEUnQUzljSHOImG-sq/view?usp=sharing" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="Watch 3D animation (opens in new tab)">Watch →</a>
+              </div>
+            </div>
+          </li>
+           <li class="project-card reveal" data-accent="sand" style="--reveal-delay: 0.1s">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__mockup project-card__mockup--top" aria-hidden="true">
+              <svg viewBox="0 0 300 160" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Hotelland dashboard mockup">
+                <rect x="0" y="0" width="300" height="160" rx="8" fill="var(--mockup-screen)"/>
+                <rect x="0" y="0" width="300" height="22" rx="8" fill="var(--mockup-surface)"/>
+                <rect x="0" y="14" width="300" height="8" fill="var(--mockup-surface)"/>
+                <circle cx="14" cy="11" r="3" fill="#F87171" opacity="0.7"/>
+                <circle cx="24" cy="11" r="3" fill="#FBBF24" opacity="0.7"/>
+                <circle cx="34" cy="11" r="3" fill="#34D399" opacity="0.7"/>
+                <rect x="60" y="7" width="140" height="8" rx="3" fill="var(--mockup-muted)" opacity="0.3"/>
+                <rect x="0" y="22" width="56" height="138" fill="var(--mockup-surface)"/>
+                <rect x="8" y="32" width="40" height="5" rx="2" fill="var(--mockup-accent-sand)" opacity="0.6"/>
+                <rect x="8" y="44" width="32" height="4" rx="2" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="8" y="54" width="36" height="4" rx="2" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="8" y="64" width="28" height="4" rx="2" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="8" y="74" width="34" height="4" rx="2" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="64" y="28" width="100" height="7" rx="2" fill="var(--mockup-text)" opacity="0.7"/>
+                <rect x="232" y="26" width="60" height="11" rx="3" fill="var(--mockup-accent-sand)" opacity="0.7"/>
+                <rect x="64" y="44" width="228" height="10" rx="2" fill="var(--mockup-surface)"/>
+                <rect x="68" y="47" width="30" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.6"/>
+                <rect x="116" y="47" width="40" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.6"/>
+                <rect x="180" y="47" width="30" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.6"/>
+                <rect x="232" y="47" width="30" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.6"/>
+                <rect x="64" y="58" width="228" height="9" rx="1" fill="var(--mockup-screen)"/>
+                <rect x="68" y="61" width="28" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="116" y="61" width="35" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="232" y="59" width="28" height="5" rx="2" fill="var(--mockup-accent-sage)" opacity="0.4"/>
+                <rect x="64" y="70" width="228" height="9" rx="1" fill="var(--mockup-surface)" opacity="0.5"/>
+                <rect x="68" y="73" width="32" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="116" y="73" width="28" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="232" y="71" width="28" height="5" rx="2" fill="var(--mockup-accent-sand)" opacity="0.4"/>
+                <rect x="64" y="82" width="228" height="9" rx="1" fill="var(--mockup-screen)"/>
+                <rect x="68" y="85" width="24" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="116" y="85" width="40" height="3" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="232" y="83" width="28" height="5" rx="2" fill="var(--mockup-accent-rose)" opacity="0.3"/>
+                <rect x="64" y="100" width="70" height="36" rx="6" fill="var(--mockup-surface)"/>
+                <rect x="68" y="106" width="20" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="68" y="114" width="36" height="8" rx="2" fill="var(--mockup-accent-sand)" opacity="0.5"/>
+                <rect x="142" y="100" width="70" height="36" rx="6" fill="var(--mockup-surface)"/>
+                <rect x="146" y="106" width="28" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="146" y="114" width="28" height="8" rx="2" fill="var(--mockup-accent-sage)" opacity="0.4"/>
+                <rect x="220" y="100" width="72" height="36" rx="6" fill="var(--mockup-surface)"/>
+                <rect x="224" y="106" width="24" height="4" rx="1" fill="var(--mockup-muted)" opacity="0.5"/>
+                <rect x="224" y="114" width="32" height="8" rx="2" fill="var(--mockup-accent-rose)" opacity="0.3"/>
+              </svg>
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__num">04</span>
+              <h3 class="project-card__title">Hotelland</h3>
+              <p class="project-card__desc">Full-stack hotel management web app. Led documentation, UI mockups, and frontend development. Integrated MySQL backend with SQLAlchemy and Python Flask.</p>
+              <ul class="project-card__tags" role="list" aria-label="Technologies used">
+                <li>Python</li><li>Flask</li><li>MySQL</li><li>HTML/CSS/JS</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://github.com/Axewc/Bersama-IS" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="View Hotelland on GitHub (opens in new tab)">GitHub →</a>
+              </div>
+            </div>
+          </li>
+
+
+          <li class="project-card reveal" data-accent="rose" style="--reveal-delay: 0.3s">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__mockup project-card__mockup--top" aria-hidden="true">
+             <img src="assets/mockups/googleClone.png" alt="Hotelland dashboard screenshot" />
+            </div>
+            <div class="project-card__body">
+              <span class="project-card__num">05</span>
+              <h3 class="project-card__title">Google Clone</h3>
+              <p class="project-card__desc">Pixel-perfect replica of Google's landing page. Demonstrates CSS precision, layout mastery, and typographic attention to detail.</p>
+              <ul class="project-card__tags" role="list" aria-label="Technologies used">
+                <li>HTML</li><li>CSS</li><li>GitHub Pages</li>
+              </ul>
+              <div class="project-card__links">
+                <a href="https://fergb01.github.io/Google-Clone/" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="View live demo of Google Clone (opens in new tab)">Live Demo →</a>
+                <a href="https://github.com/Fergb01/Google-Clone" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="View Google Clone on GitHub (opens in new tab)">GitHub →</a>
+              </div>
+            </div>
+          </li>
+          <li class="project-card project-card--confidential reveal" data-accent="rose">
+            <div class="project-card__accent" aria-hidden="true"></div>
+            <div class="project-card__body">
+              <span class="project-card__num">06 — Professional</span>
+              <span class="project-card__confidential-badge" aria-label="Confidential work">🔒 NDA</span>
+              <h3 class="project-card__title">Stadibox — Design System</h3>
+              <p class="project-card__desc">
+                Built a library of reusable React components and a style guide used across
+                the main app, customer service, and admin areas. Includes form elements,
+                data tables, navigation patterns, and interaction states — integrated with
+                GraphQL and Material UI.
+              </p>
+              <ul class="project-card__tags" role="list">
+                <li>React</li><li>JavaScript</li><li>GraphQL</li>
+                <li>Material UI</li><li>Style Guide</li> <li>Next.js</li>
+              </ul>
+              <p class="project-card__nda-note">
+                Code is confidential
+              </p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    
+    <!-- Experience -->
+    <section class="section" id="experience" aria-labelledby="exp-heading">
+      <div class="section__inner">
+        <p class="eyebrow">Experience</p>
+        <h2 class="section__title" id="exp-heading">Where I've <em>worked</em></h2>
+        <div class="experience-grid">
+          <div>
+            <h3 class="experience-grid__label"><span aria-hidden="true">💼</span> Work</h3>
+            <ol class="timeline" reversed aria-label="Work experience timeline">
+              <li class="timeline__item reveal">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <time class="timeline__date" datetime="2024-01">JAN 2024 — PRESENT</time>
+                <h4 class="timeline__role">Frontend Developer</h4>
+                <p class="timeline__company">Stadibox · Mexico City</p>
+                <p class="timeline__desc">Building new modules for the main app using React, GraphQL, and CSS. Contributing to UX/UI improvements across customer and admin areas. <br>
+                  Acting as Product Owner — gathering and landing requirements, communicating with stakeholders, and leading feature decisions. Implementing SEO strategy and analytics tracking with GA4 and Google Tag Manager
+               </p>
+              </li>
+              <li class="timeline__item reveal" style="--reveal-delay: 0.1s">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <time class="timeline__date" datetime="2024-02">FEB 2024 — SEP 2024</time>
+                <h4 class="timeline__role">Social Service Intern</h4>
+                <p class="timeline__company">ICAT, UNAM · Mexico City</p>
+                <p class="timeline__desc">Built student and academic registration modules using PHP, Laravel, Bootstrap, and PostgreSQL.</p>
+              </li>
+              <li class="timeline__item reveal" style="--reveal-delay: 0.2s">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <time class="timeline__date" datetime="2023-07">JUL 2023 — DEC 2023</time>
+                <h4 class="timeline__role">App Development Trainee</h4>
+                <p class="timeline__company">B-more · Mexico City</p>
+                <p class="timeline__desc">Java Spring Boot development and Robotic Process Automation (RPA) using Blue Prism.</p>
+              </li>
+              <li class="timeline__item reveal" style="--reveal-delay: 0.3s">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <time class="timeline__date" datetime="2021-05">MAY 2021 — JUL 2023</time>
+                <h4 class="timeline__role">Consultant Trainee</h4>
+                <p class="timeline__company">B-more · Mexico City</p>
+                <p class="timeline__desc">Administered SAP for Infonavit, managing employee permissions and operational compliance.</p>
+              </li>
+            </ol>
+          </div>
+          <div>
+            <h3 class="experience-grid__label"><span aria-hidden="true">🎓</span> Teaching</h3>
+            <ol class="timeline timeline--teaching" aria-label="Teaching experience timeline">
+              <li class="timeline__item reveal">
+                <div class="timeline__dot" aria-hidden="true"></div>
+                <time class="timeline__date" datetime="2025-08">AUG 2025 — PRESENT</time>
+                <h4 class="timeline__role">Teaching Assistant</h4>
+                <p class="timeline__company">College of Science, UNAM · Mexico City</p>
+                <p class="timeline__desc">Teaching assistant for the Operating Systems course. Prepares class materials, leads laboratory sessions, supports students with exercises, and evaluates assignments and lab work.</p>
+                <div class="project-card__links">
+                  <a href="https://feergb-ciencias.notion.site/Sistemas-operativos-2026-2-30311c83845c806eaa86ee1a7b19b51d?pvs=74" target="_blank" rel="noopener noreferrer" class="project-card__link" aria-label="View notes">View some of my material →</a>
+                </div>
+              </li>
+            </ol>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact" id="contact" aria-labelledby="contact-heading">
+      <div class="contact__inner">
+        <p class="eyebrow">Contact</p>
+        <h2 class="contact__title" id="contact-heading">Let's <em>connect.</em></h2>
+        <p>
+            Whether you have a specific project in mind or just want to chat about the intersection of <strong>code, design, or the perfect playlist</strong>, I’d love to hear from you. 
+        </p>
+        <p>
+            I’m always looking for opportunities to learn, collaborate, and grow alongside <strong>inclusive teams</strong>. Feel free to reach out!
+        </p>
+        <a href="mailto:feergbb@gmail.com" class="btn btn--light reveal">feergbb@gmail.com →</a>
+        <nav class="contact__links" aria-label="Social links">
+          <a href="https://github.com/Fergb01" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="https://www.linkedin.com/in/fergb" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+           <button
+            class="contact__link-btn"
+            id="cv-trigger"
+            aria-haspopup="dialog"
+          >Resume</button>
+        </nav>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ─── Resume modal ─── -->
+  <dialog class="cv-modal" id="cv-modal" aria-label="Fer Garduño — Resume">
+    <div class="cv-modal__header">
+      <span class="cv-modal__title">Resume</span>
+      <div class="cv-modal__actions">
+        <a
+          href="assets/docs/Resume_FerG.pdf"
+          download="Fer-Garduno-CV.pdf"
+          class="btn btn--outline btn--sm"
+          aria-label="Download CV as PDF"
+        >Download ↓</a>
+        <button
+          class="cv-modal__close"
+          id="cv-close"
+          aria-label="Close resume preview"
+          type="button"
+        >✕</button>
+      </div>
+    </div>
+    <div class="cv-modal__body">
+      <iframe
+        src="assets/docs/Resume_FerG.pdf"
+        class="cv-modal__iframe"
+        title="Fer Garduño CV preview"
+        aria-label="CV document preview"
+      ></iframe>
+    </div>
+  </dialog>
+  <script src="main.js"></script>
+</body>
+</html>
